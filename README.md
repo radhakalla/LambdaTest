@@ -8,3 +8,6 @@ All the three test scenarios where included in the class file  "SeleniumPlayGrou
 The test methods on a whole has 4 different locators.
 @DataProvider annotation is used to pass the data  for filling a form method.
 Assertions are used for Testcase verification .
+In testscenario1,user is navigating the lambda test playground site and will click on  "Simple-Form-Demo" hyperlink,upon clicking he hyperlink user verifies the url is as expected or not and enter the text in the text box and clicks on the get message button and verifies with the text in right hand panel.
+In testscenario2,user is navigating the lambda test playground site and will click on  "Drag and drop sliders" hyperlink,upon clicking he hyperlink user will slide the default 15 slider to 95 and verifies the output.
+In testsceanrio3,user is navigates to lambda test playground site and will click on "Input form submit"button  after that user fills all the required data using a dataprovider method and submits the form .User verifies the success message after submitting the form.
