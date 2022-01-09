@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="LambaTestSuite" parallel="methods">
+  <test name="WIN10CHROMETEST">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="88.0"/>
+  <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="MACTEST">
+  <parameter name="browser" value="edge"/>
+  <parameter name="version" value="87.0"/>
+  <parameter name="platform" value="macos sierra"/>
+    <classes>
+      <class name="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="WIN7TEST">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value="82.0"/>
+  <parameter name="platform" value="WIN7"/>
+    <classes>
+      <class name="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+ <test name="WIN10IETEST">
+  <parameter name="browser" value="ie"/>
+  <parameter name="version" value="11.0"/>
+  <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

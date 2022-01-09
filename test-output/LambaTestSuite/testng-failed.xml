@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LambaTestSuite]" parallel="methods">
+  <test thread-count="5" name="WIN10CHROMETEST(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="88.0"/>
+    <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround">
+        <methods>
+          <include name="setUp"/>
+          <include name="DragandDrop"/>
+          <include name="tearDown"/>
+          <include name="simpleFormDemo"/>
+          <include name="InputFormSubmit" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround -->
+    </classes>
+  </test> <!-- WIN10CHROMETEST(failed) -->
+  <test thread-count="5" name="MACTEST(failed)" parallel="methods">
+    <parameter name="browser" value="edge"/>
+    <parameter name="version" value="87.0"/>
+    <parameter name="platform" value="macos sierra"/>
+    <classes>
+      <class name="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="InputFormSubmit" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround -->
+    </classes>
+  </test> <!-- MACTEST(failed) -->
+  <test thread-count="5" name="WIN7TEST(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="82.0"/>
+    <parameter name="platform" value="WIN7"/>
+    <classes>
+      <class name="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround">
+        <methods>
+          <include name="setUp"/>
+          <include name="DragandDrop"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround -->
+    </classes>
+  </test> <!-- WIN7TEST(failed) -->
+  <test thread-count="5" name="WIN10IETEST(failed)" parallel="methods">
+    <parameter name="browser" value="ie"/>
+    <parameter name="version" value="11.0"/>
+    <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround">
+        <methods>
+          <include name="setUp"/>
+          <include name="DragandDrop"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround -->
+    </classes>
+  </test> <!-- WIN10IETEST(failed) -->
+</suite> <!-- Failed suite [LambaTestSuite] -->

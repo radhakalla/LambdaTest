@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LambaTestSuite">
+              <span class="suite-name border-failed">LambaTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LambaTestSuite">
+                    <span>C:\Users\hari prasad\eclipse-workspace\LambdaTestAssignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LambaTestSuite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LambaTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LambaTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LambaTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LambaTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LambaTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 5 failed,  1 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LambaTestSuite" class="hide-methods failed suite-LambaTestSuite"> (hide)</a> <!-- hide-methods failed suite-LambaTestSuite -->
+                      <a href="#" panel-name="suite-LambaTestSuite" class="show-methods failed suite-LambaTestSuite"> (show)</a> <!-- show-methods failed suite-LambaTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-LambaTestSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="DragandDrop">DragandDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="DragandDrop">DragandDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)">InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)">InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="simpleFormDemo">simpleFormDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LambaTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-LambaTestSuite" class="hide-methods skipped suite-LambaTestSuite"> (hide)</a> <!-- hide-methods skipped suite-LambaTestSuite -->
+                      <a href="#" panel-name="suite-LambaTestSuite" class="show-methods skipped suite-LambaTestSuite"> (show)</a> <!-- show-methods skipped suite-LambaTestSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-LambaTestSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="DragandDrop">DragandDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-LambaTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LambaTestSuite" class="hide-methods passed suite-LambaTestSuite"> (hide)</a> <!-- hide-methods passed suite-LambaTestSuite -->
+                      <a href="#" panel-name="suite-LambaTestSuite" class="show-methods passed suite-LambaTestSuite"> (show)</a> <!-- show-methods passed suite-LambaTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-LambaTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="DragandDrop">DragandDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)">InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)">InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="simpleFormDemo">simpleFormDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="simpleFormDemo">simpleFormDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LambaTestSuite" title="com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround" hash-for-method="simpleFormDemo">simpleFormDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LambaTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LambaTestSuite" class="panel LambaTestSuite">
+          <div class="suite-LambaTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragandDrop">
+                  </a> <!-- DragandDrop -->
+                  <span class="method-name">DragandDrop</span>
+                  <div class="stack-trace">java.lang.AssertionError: The slider range value is not 95 expected [95] but found [96]
+	at com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround.DragandDrop(SeleniumPlayGround.java:102)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragandDrop">
+                  </a> <!-- DragandDrop -->
+                  <span class="method-name">DragandDrop</span>
+                  <div class="stack-trace">java.lang.AssertionError: The slider range value is not 95 expected [95] but found [51]
+	at com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround.DragandDrop(SeleniumPlayGround.java:102)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)">
+                  </a> <!-- InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...) -->
+                  <span class="method-name">InputFormSubmit</span>
+                  <span class="parameters">(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc road, global village, karnataka, 341200)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;LENOVO&apos;, ip: &apos;192.168.225.134&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [477a01d8fc78133ea74e56847c99125f, clickElement {id=7878b6a1-fec9-44a3-bb9c-c596a40006b6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ltuser\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 477a01d8fc78133ea74e56847c9...}
+Element: [[RemoteWebDriver: chrome on WINDOWS (477a01d8fc78133ea74e56847c99125f)] -&gt; link text: Input Form Submit]
+Session ID: 477a01d8fc78133ea74e56847c99125f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround.InputFormSubmit(SeleniumPlayGround.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)">
+                  </a> <!-- InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...) -->
+                  <span class="method-name">InputFormSubmit</span>
+                  <span class="parameters">(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc road, global village, karnataka, 341200)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Unable to find the session info for particular sessionId 3753e29816d6bbba0a52368e2ced78e7, maybe session has quit already or timed out.
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;LENOVO&apos;, ip: &apos;192.168.225.134&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3753e29816d6bbba0a52368e2ced78e7, setTimeout {implicit=20000}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 87.0.664.41, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59809}, msedge: {msedgedriverVersion: 87.0.669.0 (9e7154764c4ca8c..., userDataDir: /var/folders/qq/vnv9tm6922q...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 3753e29816d6bbba0a52368e2ce...}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:829)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:824)
+	at com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround.InputFormSubmit(SeleniumPlayGround.java:118)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="simpleFormDemo">
+                  </a> <!-- simpleFormDemo -->
+                  <span class="method-name">simpleFormDemo</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Unable to find the session info for particular sessionId 477a01d8fc78133ea74e56847c99125f, maybe session has quit already or timed out.
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;LENOVO&apos;, ip: &apos;192.168.225.134&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [477a01d8fc78133ea74e56847c99125f, findElement {using=id, value=showInput}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ltuser\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 477a01d8fc78133ea74e56847c9...}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround.simpleFormDemo(SeleniumPlayGround.java:72)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LambaTestSuite-class-failed -->
+          <div class="suite-LambaTestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragandDrop">
+                  </a> <!-- DragandDrop -->
+                  <span class="method-name">DragandDrop</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;LENOVO&apos;, ip: &apos;192.168.225.134&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=lambda-status=false, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\ltuser\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 477a01d8fc78133ea74e56847c9...}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:493)
+	at com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround.tearDown(SeleniumPlayGround.java:147)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LambaTestSuite-class-skipped -->
+          <div class="suite-LambaTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DragandDrop">
+                  </a> <!-- DragandDrop -->
+                  <span class="method-name">DragandDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)">
+                  </a> <!-- InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...) -->
+                  <span class="method-name">InputFormSubmit</span>
+                  <span class="parameters">(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc road, global village, karnataka, 341200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)">
+                  </a> <!-- InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...) -->
+                  <span class="method-name">InputFormSubmit</span>
+                  <span class="parameters">(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc road, global village, karnataka, 341200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="simpleFormDemo">
+                  </a> <!-- simpleFormDemo -->
+                  <span class="method-name">simpleFormDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="simpleFormDemo">
+                  </a> <!-- simpleFormDemo -->
+                  <span class="method-name">simpleFormDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="simpleFormDemo">
+                  </a> <!-- simpleFormDemo -->
+                  <span class="method-name">simpleFormDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LambaTestSuite-class-passed -->
+        </div> <!-- panel LambaTestSuite -->
+        <div panel-name="test-xml-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\hari prasad\eclipse-workspace\LambdaTestAssignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;LambaTestSuite&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WIN10CHROMETEST&quot; parallel=&quot;methods&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;88.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WIN10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WIN10CHROMETEST --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MACTEST&quot; parallel=&quot;methods&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;87.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;macos sierra&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MACTEST --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WIN7TEST&quot; parallel=&quot;methods&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;82.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WIN7&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WIN7TEST --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WIN10IETEST&quot; parallel=&quot;methods&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;11.0&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;WIN10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WIN10IETEST --&gt;
+&lt;/suite&gt; &lt;!-- LambaTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LambaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">WIN10CHROMETEST (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MACTEST (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WIN7TEST (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WIN10IETEST (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LambaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LambaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LambaTestSuite');
+function tableData_LambaTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'InputFormSubmit')
+data.setCell(0, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(0, 3, 24524);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'InputFormSubmit')
+data.setCell(1, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(1, 3, 20824);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'simpleFormDemo')
+data.setCell(2, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(2, 3, 7360);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DragandDrop')
+data.setCell(3, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(3, 3, 7170);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DragandDrop')
+data.setCell(4, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(4, 3, 7036);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'simpleFormDemo')
+data.setCell(5, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(5, 3, 6756);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'simpleFormDemo')
+data.setCell(6, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(6, 3, 6717);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DragandDrop')
+data.setCell(7, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(7, 3, 5634);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'simpleFormDemo')
+data.setCell(8, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(8, 3, 5399);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'InputFormSubmit')
+data.setCell(9, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(9, 3, 2688);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'InputFormSubmit')
+data.setCell(10, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(10, 3, 328);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DragandDrop')
+data.setCell(11, 2, 'com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround')
+data.setCell(11, 3, 0);
+window.suiteTableData['LambaTestSuite']= { tableData: data, tableDiv: 'times-div-LambaTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-LambaTestSuite">
+              </div> <!-- times-div-LambaTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LambaTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LambaTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LambdaTest.com.LambdaTestAssignment.SeleniumPlayGround</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, 88.0, WIN10)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, 88.0, WIN10)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, 88.0, WIN10)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)</span>
+                <span class="method-start">16787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">simpleFormDemo</span>
+                <span class="method-start">16866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DragandDrop</span>
+                <span class="method-start">32144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge, 87.0, macos sierra)</span>
+                <span class="method-start">32256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge, 87.0, macos sierra)</span>
+                <span class="method-start">32256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(edge, 87.0, macos sierra)</span>
+                <span class="method-start">32256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">simpleFormDemo</span>
+                <span class="method-start">150441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">157801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">DragandDrop</span>
+                <span class="method-start">174449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">181630 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)</span>
+                <span class="method-start">185210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">185545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, 82.0, WIN7)</span>
+                <span class="method-start">185661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, 82.0, WIN7)</span>
+                <span class="method-start">185670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, 82.0, WIN7)</span>
+                <span class="method-start">185681 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)</span>
+                <span class="method-start">193965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">simpleFormDemo</span>
+                <span class="method-start">233990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">240708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DragandDrop</span>
+                <span class="method-start">254278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">259915 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ie, 11.0, WIN10)</span>
+                <span class="method-start">262327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ie, 11.0, WIN10)</span>
+                <span class="method-start">262336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(ie, 11.0, WIN10)</span>
+                <span class="method-start">262340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InputFormSubmit(Radha, test123@gmail.com, testweclome@121, TestCompany, DemoWebsite.com, Bangalore, flat no 3,abc ro...)</span>
+                <span class="method-start">270280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">294807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DragandDrop</span>
+                <span class="method-start">309509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">316547 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">simpleFormDemo</span>
+                <span class="method-start">320075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">326832 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
